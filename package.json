@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "start": "vite",
-  "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run start\" \"npm run backend\"",
-  "backend": "cd server && npm run dev"
-},
+    "start": "vite",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm run start\" \"npm run backend\"",
+    "backend": "cd server && npm run dev"
+  },
   "dependencies": {
     "concurrently": "^9.0.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
