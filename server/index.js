@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 const blog = require("./routes/blog")
+const user = require("./routes/user")
+app.use("/api/v1", user);
 app.use("/api/v1", blog);
 
 
