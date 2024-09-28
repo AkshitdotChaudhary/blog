@@ -4,12 +4,16 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="sticky w-full bg-red-300 shadow top-0">
+      <nav className="sticky w-full bg-red-300 shadow top-0 z-20">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="javascript:void(0)">
-                <h2 className="text-2xl font-bold text-white">LOGO</h2>
+              <a href="/">
+                <img
+                  src="src/assets/Logo.png"
+                  alt="Logo"
+                  className="aspect-square w-12 h-auto"
+                />
               </a>
               <div className="md:hidden">
                 <button

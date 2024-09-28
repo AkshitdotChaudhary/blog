@@ -1,3 +1,8 @@
+/* global.css */
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
 body {
   background-color: antiquewhite;
 }
